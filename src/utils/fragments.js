@@ -1,5 +1,6 @@
 const fragments = {
   '/': () => import('../pages/page-home/index.js'),
+  '/pagehomenew': () => import('../pages/page-home-new/index.js'),
   '/speakers': () => import('../pages/page-speakers/index.js'),
   '/speakers/:speakerId': () => import('../pages/page-speaker/index.js'),
   '/session/:sessionId': () => import('../pages/page-session/index.js'),
